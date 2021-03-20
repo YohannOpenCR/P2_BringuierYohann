@@ -1,0 +1,74 @@
+
+h1{
+    color: #0065FC;
+    font-size: 50pt;
+    text-align: center;
+}
+
+.DivPresentation{
+    display: grid;
+    background-color: #F2F2F2;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #0065fc27;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
+.AvantPropos{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 600px;
+    background-color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: -30px;
+    padding: 20px;
+    border-radius: 20px;
+    border:2px solid #0065fc27;
+}
+
+.AvantPropos:hover{
+    color: #0065FC;
+    transition: 1.5s;
+    width: 600px;
+    height: 100px;
+}
+
+p {
+    margin: auto;
+}
+
+.Img {
+    height: 60%;
+    width: 60%;
+}
+
+.Img:hover{
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    width: 300px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border: 2px solid #0065FC;
+}
+
+.Link :hover{
+    background-color: #e0e0e0;
+    color: #0065FC;
+}
