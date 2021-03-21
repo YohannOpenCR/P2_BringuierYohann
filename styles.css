@@ -36,6 +36,7 @@ a:link
     padding: 20px;
     border-radius: 20px;
     border:2px solid #0065fc27;
+    text-align: justify;
 }
 
 .AvantPropos:hover{
